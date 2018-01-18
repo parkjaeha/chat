@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");
+var socket = io("https://onlineparkjaeha.herokuapp.com/");
 
 socket.on("server-send-rooms", function(data){
 	$("#dsRoom").html("");
